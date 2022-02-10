@@ -15,7 +15,7 @@ body {
 
 .container {
   width: 94%;
-  height: 88vh;
+  height: 90vh;
   display: -webkit-box;
   border-radius: 10px;
   background-color: #ffffff;
@@ -34,7 +34,7 @@ body {
 
 .sidenav {
   min-height: 100%;
-  position: center;
+  /*position: center;*/
   z-index: 1;
   top: 0;
   left: 0;
@@ -63,7 +63,7 @@ body {
   background-color: #f3f6ff;
   width: 65%;
   height: 100%;
-  /*display:block;*/
+  display:block;
   position: relative;
   border-right: #333333 0.01pt solid;
 }
@@ -77,7 +77,7 @@ body {
   font-size: 15pt;
   font-weight: bold;
   padding-left: 20px;
-  padding-right: 300px;
+  padding-right: 400px;
 }
 
 .main-container1-img2 {
@@ -85,7 +85,7 @@ body {
 }
 
 .main-container2 {
-  padding-top: 30px;
+  padding: 10px 0 30px 0;
   display: -webkit-box;
   /*background-color: rgba(0, 255, 247, 0.58);*/
 }
@@ -103,21 +103,70 @@ body {
 
 }
 
-
+hr {
+  display: block;
+  margin: 0.5em auto;
+  border-style: inset;
+  border-width: 1px;
+}
 .main-container3 {
-  /*position: relative;*/
-  /*display: block;*/
-  /*padding-top: 200px;*/
-  background-color: #b2b218;
+  /*padding-top: 0px;*/
+  position: relative;
+  display: flex;
+
+}
+.main-container3 div{
+  margin: 0px;
+  padding: 0px 10px 0 50px;
 }
 
 .main-container4 {
-  /*background-color: #e600ff;*/
+  display: -webkit-box;
+}
+.main-container4-left-2{
+  width: 40%;
+  height: 100vh;
+  border-right: #333333 0.01pt solid;
+  /*margin: 30px;*/
+}
+.main-container4-left{
+  /*width: 40%;*/
+  /*height: 100vh;*/
+  /*border-right: #333333 0.01pt solid;*/
+  margin: 30px;
+}
+
+.span2{
+  font-size: 15pt;
+  font-weight: bolder;
+  padding: 0 0 0 150px;
+}
+.main-container4-right{
+  display: block;
+  padding-left: 10px;
+  margin: 10px;
+}
+.sub-main-container4-1{
+display:flex;
+
 }
 
 /*Right part */
 .right-container {
   width: 30%;
-  /*height: auto;*/
+background: rgba(238, 246, 255, 0.94);
+  /*margin: 20px;*/
+  display: flex;
+  flex-direction: column;
   position: relative;
+}
+.right-container1{
+  display: flex;
+}
+.right-container2{
+padding-top: 0px;
+}
+.right-container3{
+padding-top: 20px;
+  display: flex;
 }
